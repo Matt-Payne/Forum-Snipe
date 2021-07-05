@@ -16,7 +16,10 @@ def selling_check(soup):
         pass
         return False
 
-
+#  Parameters:
+#   link = url destination to forum page that is being scraped for information
+#  Class takes link and outputs data into database
+#  Example: temp = ScrappingModule('https://www.net54baseball.com/showthread.php?t=304362')
 class ScrappingModule:
 
     def __init__(self, link):
