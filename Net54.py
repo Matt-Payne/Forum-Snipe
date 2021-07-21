@@ -57,7 +57,7 @@ class Net54Scrape(URLScraper.URLScraper):
         # Login Credentials
         login_req = s.post(login_url, data=login_payload)
 
-    def soup_finder(self, soup):
+    def soup_finder(self):
         # Grabbing Title and Message
         soup = bs(s.get(self.link).text, 'html.parser')
         return soup

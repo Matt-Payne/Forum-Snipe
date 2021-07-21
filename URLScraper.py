@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup as bs
 s = requests.session()
 
 #  Parameters:
-#   link = url destination to forum page that is being scraped for information
+#  link = url destination to forum page that is being scraped for information
 #  Class takes link and outputs data into database
 #  Example: temp = ScrappingModule('https://www.net54baseball.com/showthread.php?t=304362')
 
