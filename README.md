@@ -5,7 +5,7 @@ This is a series of scripts to scrape information from varying formus containing
 * [General info](#general-information)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Documenation](#documentation)
+* [Documentation](#documentation)
 
 ## General Information
 The aim of this script is to be able to quickly parse new card posts and send them out to people who want quick updates 
